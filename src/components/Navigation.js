@@ -1,0 +1,37 @@
+
+import React, { Component } from 'react';
+import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from "react-bootstrap";
+import {LinkContainer} from "react-router-bootstrap";
+import logo from '../img/logo_crna_pozadina.JPG';
+import "./Navigation.css";
+
+class Navigation extends Component {
+    render() {
+      return (
+            <Navbar inverse fixedTop collapseOnSelect>
+                    <Navbar.Header>
+                        <Navbar.Brand>
+                        <a href="/" target="_blank"><img src={logo} alt="logo"/></a>
+                        </Navbar.Brand>
+                        <Navbar.Toggle/>
+                    </Navbar.Header>
+                    <Navbar.Collapse>
+                        <Nav>
+                            <LinkContainer to="/about">
+                                <NavItem eventKey={1} >About</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/contact">
+                                <NavItem eventKey={2} >Contact Us</NavItem>
+                            </LinkContainer> 
+                            <LinkContainer to="/gallery">
+                                <NavItem eventKey={3} >Gallery</NavItem>
+                            </LinkContainer>
+                        </Nav>
+                            </Navbar.Collapse>
+            </Navbar>
+            );
+        }
+      }
+      
+      export default Navigation;
+      
