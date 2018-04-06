@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import './App.css';
 import Navigation from "./components/Navigation.js";
-import {Carousel, Well} from "react-bootstrap";
+import {Carousel, Well, Image} from "react-bootstrap";
 import crvena from "./img/crvena.jpg";
 import wedding from "./img/wedding.jpg";
 import man from "./img/man.jpg";
@@ -47,7 +47,7 @@ class App extends Component {
           To get started, edit  and save to reload.
         </p>
         <Well>
-          <img src={logo_adresa_bela} alt="adresa"/>
+          <Image src={logo_adresa_bela} alt="adresa"/>
         </Well>
       </div>
     );
