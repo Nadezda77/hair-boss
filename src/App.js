@@ -44,7 +44,7 @@ class App extends Component {
         <br/>
         <header>
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <h1 >Welcome to React</h1>
+          <h1 >Prepustite kosu profesionalcima</h1>
         </header>
         <p>
           To get started, edit  and save to reload.
@@ -89,9 +89,9 @@ class App extends Component {
             <Image src={logo_plavi} alt="logo" responsive />
           </Col>
           <Col sm={6} md={3}>
-          tel: +381113130394 <br/>
-          mob: +381638474970 <br/>
-          adr: Bulevar Zorana Đinđića 45z
+          <a href="tel:+381113130394">tel: +381113130394 </a><br/>
+          <a href="tel:+381638474970">mob: +381638474970 </a><br/>
+          Bulevar Zorana Đinđića 45z <br/>
               Beograd
           </Col>
           <Col>
