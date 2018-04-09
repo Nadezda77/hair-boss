@@ -27,3 +27,17 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.map {
+  width: 40%;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: center;
+  align-content: center;
+  color: blueviolet;
+  font-size: large;
+  font-style: oblique;
+}
