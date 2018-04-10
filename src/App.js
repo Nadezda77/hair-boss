@@ -3,10 +3,14 @@ import './App.css';
 import Navigation from "./components/Navigation.js";
 import {Carousel, Well, Image, Grid, Row, Col, Thumbnail, Button} from "react-bootstrap";
 import Map from './map.js';
-import crvena from "./img/crvena.jpg";
-import wedding from "./img/wedding.jpg";
-import man from "./img/man.jpg";
+import malisan from "./img/malisan.jpg";
 
+import man from "./img/man.jpg";
+import cupavi from "./img/cupavi.png";
+import ljubicasta from "./img/ljubicasta.png";
+import bed_head from "./img/bed_head.png";
+import plava from "./img/plava.png";
+import karusel_sala from "./img/karusel_sala.png";
 import logo_plavi from "./img/logo_plavi.png";
 
 class App extends Component {
@@ -17,24 +21,24 @@ class App extends Component {
         
         <Carousel style={styles.container} >
           <Carousel.Item>
-            <img  width={1200} height={500} alt="900x500" src={crvena} /> 
+            <img  width={1200} height={500} alt="900x500" src={malisan} /> 
             <Carousel.Caption>
-              <h3>Ženski</h3>
+              <h3>Dečije</h3>
               <p></p>
             </Carousel.Caption>
             
           </Carousel.Item>
           <Carousel.Item>
-            <img width={1200} height={500} alt="900x500" src={man} />
+            <img width={1200} height={500} alt="900x500" src={karusel_sala} />
             <Carousel.Caption>
-              <h3>Muški</h3>
+              <h3>Muške</h3>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img  width={1200} height={500} alt="900x500" src={wedding} />
+            <img  width={1200} height={500} alt="900x500" src={plava} />
             <Carousel.Caption>
-              <h3>Posebne prilike</h3>
+              <h3>Posebne</h3>
               <p></p>
             </Carousel.Caption>
           </Carousel.Item> 
@@ -47,39 +51,37 @@ class App extends Component {
           <h1 >Prepustite kosu profesionalcima</h1>
         </header>
         <p>
-          To get started, edit  and save to reload.
+          Mi brinemo o Vašem stilu. 
         </p>
-        <Well>
-          
-        </Well>
+       
         <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src="/thumbnaildiv.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
+              <Thumbnail src={bed_head} alt="242x200">
+                <h3>Proizvodi za negu i oblikovanje</h3>
+                <p>U salonu se koriste Bed Head preparati</p>
                 <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
+                
+                  <Button bsStyle="default" href="http://www.tigi.com/bedhead/us/" target="_blank">više</Button>
                 </p>
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src="/thumbnaildiv.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
+              <Thumbnail src={ljubicasta} alt="242x200">
+                <h3>Ženske frizure</h3>
+                <p>Šišanje, farbanje, pramenovi.. </p>
                 <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
+                 
+                  <Button bsStyle="default">više</Button>
                 </p>
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src="/thumbnaildiv.png" alt="242x200">
-                <h3>Thumbnail label</h3>
-                <p>Description</p>
+              <Thumbnail src={cupavi} alt="242x200">
+                <h3>Muške frizure</h3>
+                <p>Za mlađe i malo starije..</p>
                 <p>
-                  <Button bsStyle="primary">Button</Button>&nbsp;
-                  <Button bsStyle="default">Button</Button>
+                  
+                  <Button bsStyle="default">više</Button>
                 </p>
               </Thumbnail>
             </Col>

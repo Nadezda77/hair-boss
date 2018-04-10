@@ -15,6 +15,8 @@ render() {
                 <br/>
                 <p>
                 tel:+381
+                <br/>
+                salontheboss@gmail.com
                 </p>
             </div>
         </div>
