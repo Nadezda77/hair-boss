@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
-import logo from '../img/logo_crna_pozadina.JPG';
+import logo from '../img/logo.png';
 import "./Navigation.css";
 
 class Navigation extends Component {

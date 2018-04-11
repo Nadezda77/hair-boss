@@ -12,6 +12,7 @@ import bed_head from "./img/bed_head.png";
 import plava from "./img/plava.png";
 import karusel_sala from "./img/karusel_sala.png";
 import logo_plavi from "./img/logo_plavi.png";
+import instagram from "./img/instagram.png";
 
 class App extends Component {
   render() {
@@ -58,7 +59,7 @@ class App extends Component {
             <Col xs={6} md={4}>
               <Thumbnail src={bed_head} alt="242x200">
                 <h3>Proizvodi za negu i oblikovanje</h3>
-                <p>U salonu se koriste Bed Head preparati</p>
+                <p>U salonu se koriste vrhunski preparati, Tigi kolekcija <b>Bed Head</b> </p>
                 <p>
                 
                   <Button bsStyle="default" href="http://www.tigi.com/bedhead/us/" target="_blank">više</Button>
@@ -94,7 +95,8 @@ class App extends Component {
           <a href="tel:+381113130394">tel: +381113130394 </a><br/>
           <a href="tel:+381638474970">mob: +381638474970 </a><br/>
           Bulevar Zorana Đinđića 45z <br/>
-              Beograd
+          Beograd <br/>
+          <a href="https://www.instagram.com/salon_the_boss/"><img src={instagram}  alt="instagram icon"/>@salon_the_boss</a>
           </Col>
           <Col>
           <div className="map">
