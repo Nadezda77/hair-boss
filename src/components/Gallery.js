@@ -1,11 +1,6 @@
 import React from 'react';
 import Gallery from 'react-grid-gallery';
-
-
-
 import Navigation from "./Navigation";
-
-
 import man from "../img/man_sala.png";
 import cupavi from "../img/cupavi.png";
 import cupavi_tn from "../img/cupavi_tn.png";
@@ -17,9 +12,6 @@ import man_sala from "../img/man_sala.png";
 import man_sala_tn from "../img/man_sala_tn.png";
 import quattro_tn from "../img/quattro_tn.png";
 import quattro from "../img/quattro.png";
-
-
-
 
 const IMAGES =
 [{

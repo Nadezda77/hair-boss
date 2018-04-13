@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation.js";
 import {Carousel, Well, Image, Grid, Row, Col, Thumbnail, Button} from "react-bootstrap";
 import Map from './map.js';
 import malisan from "./img/malisan.jpg";
+import logo from './img/logo.png';
 
 import man from "./img/man.jpg";
 import cupavi from "./img/cupavi.png";
@@ -17,9 +18,12 @@ import instagram from "./img/instagram.png";
 class App extends Component {
   render() {
     return (
-      <div >
-        <Navigation/>
-        
+      <div >  
+      <Navigation/>
+        <br/>
+        <br/> 
+        <br/>
+      <Image src={logo} alt="logo" responsive center center/>
         <Carousel style={styles.container} >
           <Carousel.Item>
             <img  width={1200} height={500} alt="900x500" src={malisan} /> 

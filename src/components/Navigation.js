@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from "react-bootstrap";
 import {LinkContainer} from "react-router-bootstrap";
 import logo from '../img/logo.png';
+import hairdresser from '../img/hairdresser.png';
 import "./Navigation.css";
 
 class Navigation extends Component {
@@ -11,7 +12,7 @@ class Navigation extends Component {
             <Navbar inverse fixedTop collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
-                        <a href="/" target="_blank"><img src={logo} alt="logo"/></a>
+                        <a href="/" target="_blank"><img src={hairdresser} alt="logo"/></a>
                         </Navbar.Brand>
                         <Navbar.Toggle/>
                     </Navbar.Header>
