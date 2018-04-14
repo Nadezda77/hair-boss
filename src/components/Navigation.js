@@ -18,14 +18,20 @@ class Navigation extends Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav>
+                        <LinkContainer to="/zenske">
+                                <NavItem eventKey={1} >Dame</NavItem>
+                            </LinkContainer>
+                            <LinkContainer to="/muske">
+                                <NavItem eventKey={2} >Muške</NavItem>
+                            </LinkContainer>
                             <LinkContainer to="/about">
-                                <NavItem eventKey={1} >O nama</NavItem>
+                                <NavItem eventKey={3} >O nama</NavItem>
                             </LinkContainer>
                             <LinkContainer to="/contact">
-                                <NavItem eventKey={2} >Kontakt</NavItem>
+                                <NavItem eventKey={4} >Kontakt</NavItem>
                             </LinkContainer> 
                             <LinkContainer to="/gallery">
-                                <NavItem eventKey={3} >Galerija</NavItem>
+                                <NavItem eventKey={5} >Galerija</NavItem>
                             </LinkContainer>
                         </Nav>
                             </Navbar.Collapse>

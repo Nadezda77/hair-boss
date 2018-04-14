@@ -2,23 +2,44 @@ import React, { Component } from 'react';
 import Navigation from "./Navigation.js";
 import {Media, Image, Row, Col} from "react-bootstrap";
 import Map from "../map";
+import step_1 from "../img/step_1.png";
+import sala_2 from "../img/sala_2.png";
+import step_3 from "../img/step_3.png";
+
 import instagram from "../img/instagram.png";
 import logo_plavi from "../img/logo_plavi.png";
+import plave_lokne from "../img/plave_lokne.png";
 
-
-class Contact extends Component {
+class Muske extends Component {
 render() {
     return (
         <div>
             <Navigation/>
-           <br/>
-           <br/>
             <br/>
-            <p>
-                <a href="mailto:salontheboss@gmail.com">salontheboss@gmail.com</a>
-            </p>
-           <br/>
-            
+            <br/>
+            <div className="container">
+                <h1>Muške frizure</h1>
+                <br/>
+
+           <p> Znamo šta želite </p>
+    <Row>
+    <Col sm={6} md={4}>
+      <Image width={256} height={256} src={step_1} alt="thumbnail" />
+      </Col>
+      <Col sm={6} md={4}> 
+      <Image width={256} height={256} src={step_3} alt="thumbnail" />
+      </Col>
+      <Col>
+      <Image width={256} height={256} src={sala_2} alt="thumbnail" />
+    </Col>
+    </Row>
+    
+  
+
+     </div>
+
+     <br/>
+     <br/>
             <Row>
         <Col xs={6} md={4}>
           <div className="map">
@@ -54,4 +75,4 @@ render() {
     }
 }
 
-export default Contact;
+export default Muske;

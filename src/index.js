@@ -8,8 +8,8 @@ import Footer from './components/Footer';
 import Galerija from './components/Gallery';
 import About from './components/About';
 import Contact from './components/Contact';
-
-
+import Zenske from './components/Zenske';
+import Muske from './components/Muske';
 
 
 
@@ -20,6 +20,8 @@ ReactDOM.render(
           <Route path='/about' component={About} />
           <Route path='/gallery' component={Galerija} />
           <Route path='/contact' component={Contact} />
+          <Route path='/zenske' component={Zenske} />
+          <Route path='/muske' component={Muske} />
         <Footer/>
       </div>
   </Router>, 
