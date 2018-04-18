@@ -1,96 +1,40 @@
 import React, { Component } from 'react';
 import Navigation from "./Navigation.js";
 
-import {Media, Image, Row, Col} from "react-bootstrap";
+import {Image, Row, Col} from "react-bootstrap";
 import Map from "../map";
 import instagram from "../img/instagram.png";
 import logo_plavi from "../img/logo_plavi.png";
+import facebook from "../img/facebook.png";
+import sale from "../img/sale.jpg";
 
 class About extends Component {
 render() {
     return (
         <div>
-            <Navigation/>
-            <br/>
-            <br/>
-            <div className="container">
-                <h1>O nama</h1>
-                <br/>
-                <Media>
+          <Navigation/>
+          <br/>
+          <br/>
+          <div className="container">
+              <h1>O nama</h1>
+              <Image src={sale} circle center/>
+              <h3>The Boss je Sale</h3>
+              <p> Preko 20 godina iskustva u prestižnim beogradskim salonima, obuke, takmičenja i najvažnije, zadovoljne mušterije su naša najbolje preporuka. </p>
+              <p>
+              
                 
-    <Media.Left>
-      <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
-    </Media.Left>
-    <Media.Body>
-      <Media.Heading>Media Heading</Media.Heading>
-      <p>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-        ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-        fringilla. Donec lacinia congue felis in faucibus.
-      </p>
-    </Media.Body>
-  </Media>
-  <Media>
-    <Media.Left>
-      <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
-    </Media.Left>
-    <Media.Body>
-      <Media.Heading>Media Heading</Media.Heading>
-      <p>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-        ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-        fringilla. Donec lacinia congue felis in faucibus.
-      </p>
-      <Media>
-        <Media.Left>
-          <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
-        </Media.Left>
-        <Media.Body>
-          <Media.Heading>Nested Media Heading</Media.Heading>
-          <p>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-            scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
-            in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-            nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          </p>
-        </Media.Body>
-      </Media>
-    </Media.Body>
-  </Media>
-  <Media>
-    <Media.Body>
-      <Media.Heading>Media Heading</Media.Heading>
-      <p>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-        ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-        fringilla. Donec lacinia congue felis in faucibus.
-      </p>
-    </Media.Body>
-    <Media.Right>
-      <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
-    </Media.Right>
-  </Media>
-  <Media>
-    <Media.Left>
-      <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
-    </Media.Left>
-    <Media.Body>
-      <Media.Heading>Media Heading</Media.Heading>
-      <p>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
-        ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-        tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
-        fringilla. Donec lacinia congue felis in faucibus.
-      </p>
-    </Media.Body>
-    <Media.Right>
-      <img width={64} height={64} src="/thumbnail.png" alt="thumbnail" />
-    </Media.Right>
-                </Media>
-            </div>
+              </p>
+            
+
+  
+    </div>
+            <br/>
+     <br/>
+     
+        
+      
+        <br/>
+        <br/>
         </div>
         );
     }

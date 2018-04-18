@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navigation from "./components/Navigation.js";
-import {Carousel, Well, Image, Grid, Row, Col, Thumbnail, Button, Media} from "react-bootstrap";
+import {Carousel, PageHeader, Image,  Row, Col, Thumbnail, Button, Media} from "react-bootstrap";
 import Map from './map.js';
 import malisan from "./img/malisan.png";
 import logo from './img/logo.png';
 import karusel_sala from "./img/karusel_sala.png";
-import man from "./img/man.jpg";
+
 import man_sala from "./img/man_sala.png";
 import ljubicasta from "./img/ljubicasta.png";
 import bed_head from "./img/bed_head.png";
 import naslovna_1 from "./img/naslovna_1.png";
 import logo_plavi from "./img/logo_plavi.png";
 import instagram from "./img/instagram.png";
+import facebook from "./img/facebook.png";
 import salon_1 from "./img/salon_1.jpg";
 
 
@@ -24,7 +25,7 @@ class App extends Component {
         <br/>
         <br/> 
         <br/>
-      <Image src={logo} alt="logo" responsive center center/>
+      <Image src={logo} alt="logo" responsive />
         <Carousel style={styles.container} >
           <Carousel.Item>
             <img  width={1200} height={500} alt="900x500" src={malisan} /> 
@@ -52,13 +53,14 @@ class App extends Component {
         
         <br/>
         <br/>
-        <header>
+        <PageHeader>
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <h1 >Prepustite kosu profesionalcima</h1>
-        </header>
-        <p>
+         Prepustite kosu profesionalcima <br/>
+         <small>
           Mi brinemo o Vašem stilu. 
-        </p>
+        </small>
+        </PageHeader>
+        
        
         <Row>
           
@@ -85,7 +87,7 @@ class App extends Component {
             <Col sm={6} md={4}>
               <Thumbnail src={man_sala} alt="242x200">
                 <h3>Muške frizure</h3>
-                <p>Za mlađe starije..</p>
+                <p>Za mlađe i starije..</p>
                 <p>
                   
                   <Button bsStyle="default" href="/muske">više</Button>
@@ -118,7 +120,10 @@ class App extends Component {
           <a href="tel:+381638474970">mob: +381638474970 </a><br/>
           Bulevar Zorana Đinđića 45z <br/>
           Beograd <br/>
-          <a href="https://www.instagram.com/salon_the_boss/"><img src={instagram}  alt="instagram icon" align="center"/>@salon_the_boss</a>
+
+          <a href="https://www.facebook.com/salontheboss/"><img src={facebook}  alt="facebook icon" align="center"/></a>
+          <a href="https://www.instagram.com/salon_the_boss/"><img src={instagram}  alt="instagram icon" align="center"/></a>
+          
           </Col>
           <Col xs={6} md={4}>
             <Image src={logo_plavi} alt="logo" responsive align="right" />
@@ -129,7 +134,7 @@ class App extends Component {
             <th>radno vreme:</th>
             </thead>
             <tbody>
-            <td>utorak - subota 12 - 20h</td>
+            <td>utorak-subota 12-20h</td>
             </tbody>
           </table>
           </Col>

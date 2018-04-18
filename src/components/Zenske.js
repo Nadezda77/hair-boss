@@ -10,6 +10,7 @@ import pramenovi from "../img/pramenovi.png";
 import instagram from "../img/instagram.png";
 import logo_plavi from "../img/logo_plavi.png";
 import plave_lokne from "../img/plave_lokne.png";
+import facebook from "../img/facebook.png";
 
 class Zenske extends Component {
 render() {
@@ -24,7 +25,7 @@ render() {
                 <Media>
       <Media.Heading>Šišanje</Media.Heading>
       <p>
-        Profesionalno šišenje koje će vas istaći.
+        Profesionalno šišanje koje će vas istaći.
       </p>
       <Media.Right>
       <Image width={256} height={256} src={paz} alt="thumbnail" />
@@ -91,6 +92,7 @@ render() {
           <a href="tel:+381638474970">mob: +381638474970 </a><br/>
           Bulevar Zorana Đinđića 45z <br/>
           Beograd <br/>
+          <a href="https://www.facebook.com/salontheboss/"><img src={facebook}  alt="facebook icon" align="center"/></a>
           <a href="https://www.instagram.com/salon_the_boss/"><img src={instagram}  alt="instagram icon" align="center"/>@salon_the_boss</a>
           </Col>
           <Col xs={6} md={4}>
