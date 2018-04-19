@@ -56,20 +56,14 @@ render() {
           Bulevar Zorana Đinđića 45z <br/>
           Beograd <br/>
           <a href="https://www.facebook.com/salontheboss/"><img src={facebook}  alt="facebook icon" align="center"/></a>
+          &nbsp; &nbsp;
           <a href="https://www.instagram.com/salon_the_boss/"><img src={instagram}  alt="instagram icon" align="center"/>@salon_the_boss</a>
+          <br/>
+          <br/>
+          radno vreme: utorak-subota 12-20h 
           </Col>
           <Col xs={6} md={4}>
             <Image src={logo_plavi} alt="logo" responsive align="right" />
-          </Col>
-          <Col xs={6} md={4}>
-          <table>
-            <thead>
-            <th>radno vreme:</th>
-            </thead>
-            <tbody>
-            <td>utorak - subota 12 - 20h</td>
-            </tbody>
-          </table>
           </Col>
         </Row>
         <br/>

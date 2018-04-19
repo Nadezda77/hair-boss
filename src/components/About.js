@@ -15,26 +15,12 @@ render() {
           <Navigation/>
           <br/>
           <br/>
-          <div className="container">
-              <h1>O nama</h1>
-              <Image src={sale} circle center/>
-              <h3>The Boss je Sale</h3>
-              <p> Preko 20 godina iskustva u prestižnim beogradskim salonima, obuke, takmičenja i najvažnije, zadovoljne mušterije su naša najbolje preporuka. </p>
-              <p>
-              
-                
-              </p>
-            
-
-  
-    </div>
-            <br/>
-     <br/>
-     
-        
-      
-        <br/>
-        <br/>
+            <div className="container">
+                <h1>O nama</h1>
+                <Image src={sale} circle center/>
+                <h3>The Boss je Sale</h3>
+                <p> Preko 20 godina iskustva u prestižnim beogradskim salonima, obuke, takmičenja i najvažnije, zadovoljne mušterije su naša najbolje preporuka. </p>
+            </div>
         </div>
         );
     }
